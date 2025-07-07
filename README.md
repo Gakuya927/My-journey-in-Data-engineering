@@ -1,3 +1,14 @@
-# My-journey-in-Data-engineering
-This repo documents my hands-on transition from hardware to data—capturing wins, failures, and hard-earned lessons while building scalable data systems.  
-Actually I would love to mention what actually drove me to learning data science. at first, it  was to make my cv diverse having have done electrical and electronics engineering. I had a project in my final year  for chick detection in an incubator using machine learning. to everyone it was just a simple task but to me it was mind blowing. how I would move from an mp3 file recording to data that can be used my an ml model was giving me sleepless nights. Well I managed to train a CNN model using edge impulse but I was still not satisfied. like I really needed to prepare the dataset for all the features from scratch the use an ml model. Later this year I had another project . the project is for forecasting the market prices for various commodities such as tomatoes ,cabbages ,onions, carrots etc. so i managed to design a simple web app for collecting the daily data, price per unit, location and price. My database was in firebase, i really did not know how the data was being received from the back but it usually popped when entered. This data ideally was to be used for training the AI for the forecasting . it was a good initial step ,but how would i go about building the data pipelines ,how about when the platform scales ,the data would require careful handling,so that is how i decided to polish my skills on the data engineering. I hope by the end of 6 moths i will have seen the light in full for the platform.
+You are a junior data engineer at a global health analytics firm. Your task is to explore and prepare COVID-19 time series data from various countries. The raw data comes in CSV form—your goal is to make it analysis-ready and generate some basic insights using Pandas and NumPy.
+# INSIGHTS FROM COVID 19 DATASET
+## COVID Time Series Analysis with Pandas & NumPy
+
+### ✅ Key Tasks Completed
+- Grouped time-series data by country
+- Aggregated global confirmed cases
+- Used `.diff()` to calculate daily new cases
+- Identified India's peak daily new cases: **414,188 on 5/6/21**
+- Global confirmed as of 3/9/23: **676,570,149**
+- Global new cases on 3/9/23: **177,325**
+
+### 🧠 Reflection
+This dataset shows how real-world data is both powerful and messy. I learned how to extract meaningful insights using basic Pandas operations—and uncovered headline-level data from scratch. Handling negative values, cleaning groupings, and visualizing trends all taught me how critical data engineering is in real analysis.
